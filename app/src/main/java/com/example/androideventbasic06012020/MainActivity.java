@@ -41,8 +41,9 @@ public class MainActivity extends AppCompatActivity {
 //        Log.d("BBB",null);
 
         // Hiển thị thông báo ra màn hình
-        Anotation : Chú thích được ký hiệu bằng @
-        Toast.makeText()
+//        Anotation : Chú thích được ký hiệu bằng @
+//        Toast.makeText(MainActivity.this,"Hello Word",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello Word", Toast.LENGTH_SHORT).show();
     }
 
 }
